@@ -1,5 +1,7 @@
 # Algorithm Visualization Tool
 
+> ⚠️ **Disclaimer**: This project was created as a fun learning exercise and educational tool. While functional, it may contain bugs or unoptimized code. Use for educational purposes and feel free to contribute improvements!
+
 A modern, interactive web application for visualizing and understanding backtracking algorithms through step-by-step animations. Built with React, TypeScript, and Tailwind CSS.
 
 ![Demo](https://img.shields.io/badge/Demo-Live-brightgreen) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
