@@ -185,16 +185,6 @@ Contributions are welcome! Here are some ways you can help:
 - [ ] Performance benchmarking
 - [ ] Solution path highlighting
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by algorithm visualization tools like VisuAlgo
-- Built with modern web technologies for optimal performance
-- Designed with education and accessibility in mind
-
 ## 📞 Support
 
 If you have questions, suggestions, or need help:
