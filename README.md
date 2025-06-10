@@ -1,4 +1,4 @@
-# - Algorithm Visualization Tool
+# Algorithm Visualization Tool
 
 A modern, interactive web application for visualizing and understanding backtracking algorithms through step-by-step animations. Built with React, TypeScript, and Tailwind CSS.
 
