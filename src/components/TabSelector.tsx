@@ -39,7 +39,7 @@ export const TabSelector: React.FC<TabSelectorProps> = ({
               onClick={() => onTabChange(tab.id)}
               className={`flex-1 flex items-center space-x-3 px-6 py-4 rounded-lg transition-all duration-300 ${
                 isActive
-                  ? "bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg"
+                  ? "bg-blue-600 text-white shadow-lg"
                   : "text-gray-600 hover:bg-gray-50"
               }`}
             >

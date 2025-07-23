@@ -1,4 +1,4 @@
-import { Brain, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { NQueensControls } from "./components/NQueensConfig";
 import { NQueensGrid } from "./components/NQueensGrid";
@@ -420,18 +420,7 @@ function App() {
         }));
       }
     }
-  }, [
-    activeTab,
-    sudokuState.isPlaying,
-    sudokuState.currentStep,
-    sudokuState.totalSteps,
-    sudokuState.speed,
-    nqueensState.isPlaying,
-    nqueensState.currentStep,
-    nqueensState.totalSteps,
-    nqueensState.speed,
-    handleStepForward,
-  ]);
+  }, [activeTab, sudokuState, nqueensState, handleStepForward]);
 
   const currentState = activeTab === "sudoku" ? sudokuState : nqueensState;
   const canSolve =
@@ -448,13 +437,13 @@ function App() {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl text-white">
-              <Brain size={32} />
+            <div className="p-3 bg-blue-500 rounded-xl text-white">
+              <Zap size={32} />
             </div>
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent p-4">
+            <h1 className="text-4xl font-bold bg-blue-600 bg-clip-text text-transparent p-4">
               Backtracking Algorithm Visualizer
             </h1>
-            <div className="p-3 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl text-white">
+            <div className="p-3 bg-blue-500 rounded-xl text-white">
               <Zap size={32} />
             </div>
           </div>
